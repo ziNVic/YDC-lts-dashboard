@@ -1,6 +1,14 @@
 {
   "nationalPolicies": [
     {
+      "date": "2026-04-07",
+      "title": "河北省出台《建立长期护理保险制度实施方案》",
+      "url": "https://www.nhsa.gov.cn/art/2026/4/7/art_14_20124.html",
+      "type": "正式政策",
+      "source": "河北省人民政府/国家医保局",
+      "summary": "2026年起各统筹地区优先启动职工、退休人员、灵活就业人员覆盖，2027年底前扩围至城乡居民，2028年底基本建立统筹城乡制度。"
+    },
+    {
       "date": "2026-04-24",
       "title": "辽宁省印发《建立长期护理保险制度实施方案》",
       "url": "https://www.ln.gov.cn/web/zwgkx/zcjd/zcjd/2026042410350495227/index.shtml",
@@ -147,6 +155,30 @@
   ],
   "cityAnnouncements": [
     {
+      "date": "2026-06-02",
+      "city": "惠州",
+      "province": "广东",
+      "title": "惠州市首批长期护理保险定点护理服务机构公开遴选",
+      "url": "http://www.huizhou.gov.cn/bmpd/hzsylbzj/tzgg/content/post_5781761.html",
+      "summary": "首批居家护理定点机构33家，机构护理不设定点数量上限。6月3日至12日集中受理申报。"
+    },
+    {
+      "date": "2026-06-17",
+      "city": "枣庄",
+      "province": "山东",
+      "title": "枣庄市公示2026年长期护理保险定点护理服务机构名单",
+      "url": "http://zzsybj.zaozhuang.gov.cn/tzgg/202606/t20260617_2295938.html",
+      "summary": "经书面查验、现场核查、集体评议，4家机构基本具备签订服务协议条件。"
+    },
+    {
+      "date": "2026-06-23",
+      "city": "岳阳",
+      "province": "湖南",
+      "title": "岳阳市开展长期护理保险定点护理服务机构摸底登记",
+      "url": "https://www.yueyang.gov.cn/yyyb/57568/57569/content_2385024.html",
+      "summary": "2026年6月25日至7月25日集中受理登记，医保部门将统筹规划全域布局，择期开展定点准入评估。"
+    },
+    {
       "date": "2026-04-15",
       "city": "深圳",
       "province": "广东",
@@ -292,6 +324,36 @@
     }
   ],
   "selectionData": [
+    {
+      "date": "2026-06-02",
+      "city": "惠州",
+      "province": "广东",
+      "type": "定点机构遴选",
+      "title": "惠州市首批长期护理保险定点护理服务机构公开遴选",
+      "url": "http://www.huizhou.gov.cn/bmpd/hzsylbzj/tzgg/content/post_5781761.html",
+      "status": "遴选中",
+      "summary": "首批居家护理定点机构33家，县区配额管理，6月3日至12日集中受理。"
+    },
+    {
+      "date": "2026-06-17",
+      "city": "枣庄",
+      "province": "山东",
+      "type": "定点机构公示",
+      "title": "枣庄市2026年长期护理保险定点护理服务机构名单公示",
+      "url": "http://zzsybj.zaozhuang.gov.cn/tzgg/202606/t20260617_2295938.html",
+      "status": "公示中",
+      "summary": "4家机构基本具备签订服务协议条件，公示期6月17日至24日。"
+    },
+    {
+      "date": "2026-06-23",
+      "city": "岳阳",
+      "province": "湖南",
+      "type": "摸底登记",
+      "title": "岳阳市长期护理保险定点护理服务机构摸底登记",
+      "url": "https://www.yueyang.gov.cn/yyyb/57568/57569/content_2385024.html",
+      "status": "登记中",
+      "summary": "2026年6月25日至7月25日集中受理，医保部门将统筹规划全域布局。"
+    },
     {
       "date": "2015-02",
       "city": "长春",
@@ -580,6 +642,38 @@
     }
   ],
   "caregiverData": [
+    {
+      "date": "2026-06-16",
+      "city": "长沙",
+      "province": "湖南",
+      "title": "湖南省2026年第三次长期照护师职业技能等级省内认定计划",
+      "url": "http://rst.hunan.gov.cn/rst/xxgk/tzgg/202606/t20260615_34002097.html",
+      "summary": "7月12日统一认定，5级考试，申报截止7月2日。"
+    },
+    {
+      "date": "2026-06-08",
+      "city": "贵阳",
+      "province": "贵州",
+      "title": "贵州省2026年6月长期照护师职业技能等级认定考试",
+      "url": "https://www.sohu.com/a/1033841037_121106902",
+      "summary": "贵阳康养职业大学、贵州中医药大学时珍学院等3家机构面向社会开展五级/初级工认定。"
+    },
+    {
+      "date": "2026-06-12",
+      "city": "全国",
+      "province": "全国",
+      "title": "2026年度长期照护师职业技能等级认定第二次省际联考报名启动",
+      "url": "https://www.nhsa.gov.cn/art/2026/6/12/art_14_20989.html",
+      "summary": "30个省（区、市）同步举行，不限户籍，欢迎全国考生报名就近参加考试。"
+    },
+    {
+      "date": "2026-06-17",
+      "city": "全国",
+      "province": "全国",
+      "title": "长期照护师持证人数超3万，第二次省际联考6月28日举行",
+      "url": "https://www.nhsa.gov.cn/art/2026/6/17/art_14_21024.html",
+      "summary": "2026年度第二次省际联考将于6月28日在全国30个省（区、市）同步举行，部分省份同时开展初级、中级考试。"
+    },
     {
       "date": "2026-03-26",
       "title": "国家医保局：2025年全国长期照护师已超1万人",
@@ -1236,7 +1330,7 @@
           "status": "已启动",
           "coverage": "职工+居民",
           "startDate": "2020-01-01",
-          "latestUpdate": "正常运行",
+          "latestUpdate": "正常运行，2026年6月公示定点机构名单",
           "enrollment": 380,
           "policies": [],
           "yidekang": false,
@@ -1993,36 +2087,36 @@
       "name": "河北",
       "region": "华北",
       "status": "部分启动",
-      "progress": 9,
+      "progress": 25,
       "cities": [
         {
           "name": "石家庄",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
-          "enrollment": 0,
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2026-01-01",
+          "latestUpdate": "2026年启动职工长护险",
+          "enrollment": 350,
           "policies": [],
           "yidekang": false,
           "region": ""
         },
         {
           "name": "唐山",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
-          "enrollment": 0,
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2026-01-01",
+          "latestUpdate": "2026年启动职工长护险",
+          "enrollment": 280,
           "policies": [],
           "yidekang": true,
           "region": "Z"
         },
         {
           "name": "秦皇岛",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
@@ -2030,10 +2124,10 @@
         },
         {
           "name": "邯郸",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
@@ -2041,10 +2135,10 @@
         },
         {
           "name": "邢台",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
@@ -2052,10 +2146,10 @@
         },
         {
           "name": "保定",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
@@ -2063,10 +2157,10 @@
         },
         {
           "name": "张家口",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
@@ -2074,21 +2168,21 @@
         },
         {
           "name": "承德",
-          "status": "已启动",
+          "status": "准备中",
           "coverage": "职工",
-          "startDate": "2016-11-01",
-          "latestUpdate": "首批试点，持续运行",
-          "enrollment": 220,
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
+          "enrollment": 0,
           "policies": [],
           "yidekang": false,
           "region": ""
         },
         {
           "name": "沧州",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
@@ -2096,10 +2190,10 @@
         },
         {
           "name": "廊坊",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
@@ -2107,17 +2201,17 @@
         },
         {
           "name": "衡水",
-          "status": "规划中",
-          "coverage": "—",
-          "startDate": "—",
-          "latestUpdate": "待出台方案",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年实施方案出台，待启动",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
           "region": ""
         }
       ],
-      "totalEnrollment": 220
+      "totalEnrollment": 630
     },
     {
       "id": "sx",
@@ -2374,6 +2468,17 @@
           "policies": [],
           "yidekang": false,
           "region": ""
+        },
+        {
+          "name": "岳阳",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年6月开展定点服务机构摸底登记",
+          "enrollment": 0,
+          "policies": [],
+          "yidekang": false,
+          "region": ""
         }
       ],
       "totalEnrollment": 260
@@ -2486,6 +2591,17 @@
           "coverage": "—",
           "startDate": "—",
           "latestUpdate": "待出台方案",
+          "enrollment": 0,
+          "policies": [],
+          "yidekang": false,
+          "region": ""
+        },
+        {
+          "name": "惠州",
+          "status": "准备中",
+          "coverage": "职工",
+          "startDate": "2026-07-01",
+          "latestUpdate": "2026年6月首批定点机构遴选",
           "enrollment": 0,
           "policies": [],
           "yidekang": false,
