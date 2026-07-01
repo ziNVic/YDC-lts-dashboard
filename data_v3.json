@@ -203,7 +203,7 @@
       "effectiveDate": "",
       "province": "",
       "city": "",
-      "sourceName": "河北省人民政府/国家医保局",
+      "sourceName": "国家医保局",
       "sourceType": "官方",
       "url": "https://www.nhsa.gov.cn/art/2026/4/7/art_14_20124.html",
       "summary": "2026年起各统筹地区优先启动职工、退休人员、灵活就业人员覆盖，2027年底前扩围至城乡居民，2028年底基本建立统筹城乡制度。",
@@ -231,7 +231,7 @@
       "effectiveDate": "",
       "province": "",
       "city": "",
-      "sourceName": "四川省人民政府",
+      "sourceName": "国家医保局",
       "sourceType": "官方",
       "url": "http://www.nhsa.gov.cn/art/2026/4/3/art_14_20120.html",
       "summary": "2026年有条件统筹区启动，2027年全省全面实施，2028年基本构建多层次长护保障体系。",
@@ -259,7 +259,7 @@
       "effectiveDate": "",
       "province": "",
       "city": "",
-      "sourceName": "国家医保局/国新办",
+      "sourceName": "国家医保局",
       "sourceType": "待核验",
       "url": "",
       "summary": "中办、国办印发《意见》，明确用3年左右时间基本建立长护险制度，到2028年底基本实现全覆盖。",
@@ -301,7 +301,7 @@
       "effectiveDate": "",
       "province": "",
       "city": "",
-      "sourceName": "国家医保局/中国医疗保险研究会",
+      "sourceName": "国家医保局",
       "sourceType": "官方",
       "url": "https://www.nhsa.gov.cn/art/2025/12/22/art_14_19112.html",
       "summary": "国家医保局局长章轲出席并致辞，宣布'十五五'时期长护险将从试点转向全面建制，覆盖约3亿人。",
@@ -329,7 +329,7 @@
       "effectiveDate": "",
       "province": "",
       "city": "",
-      "sourceName": "国家医保局/人社部",
+      "sourceName": "国家医保局",
       "sourceType": "待核验",
       "url": "",
       "summary": "规范五级/初级工、四级/中级工、三级/高级工的认定考核工作。",
@@ -343,7 +343,7 @@
       "effectiveDate": "",
       "province": "",
       "city": "",
-      "sourceName": "国家医保局等8部门",
+      "sourceName": "国家医保局",
       "sourceType": "官方",
       "url": "https://www.nhsa.gov.cn/art/2025/4/24/art_105_16354.html",
       "summary": "医保发〔2025〕11号，部署长期照护师培养培训工作。",
@@ -4339,7 +4339,7 @@
   "digitalIntelligence": [
     {
       "title": "工信部组织开展2026年\"数字适老中国行\"活动",
-      "category": "资讯",
+      "category": "政策文件",
       "publishDate": "2026-05-15",
       "effectiveDate": "",
       "province": "全国",
@@ -4353,7 +4353,7 @@
     },
     {
       "title": "关于加快\"人工智能+消费\"发展的实施意见",
-      "category": "资讯",
+      "category": "政策文件",
       "publishDate": "2026-06-18",
       "effectiveDate": "",
       "province": "全国",
@@ -4367,7 +4367,7 @@
     },
     {
       "title": "小橙：全流程数字化管理系统",
-      "category": "资讯",
+      "category": "产品资讯",
       "publishDate": "2026-01-12",
       "effectiveDate": "",
       "province": "全国",
@@ -4381,7 +4381,7 @@
     },
     {
       "title": "北京老博会新风向，AI智慧养老成亮点",
-      "category": "资讯",
+      "category": "展会活动",
       "publishDate": "2026-05-18",
       "effectiveDate": "",
       "province": "北京",
@@ -4395,7 +4395,7 @@
     },
     {
       "title": "中国长护险智慧实践亮相世卫大，AI赋能长期照护体系建设",
-      "category": "资讯",
+      "category": "媒体报道",
       "publishDate": "2026-05-22",
       "effectiveDate": "",
       "province": "全国",
@@ -4409,7 +4409,7 @@
     },
     {
       "title": "上海老博会新风向，雷达感知技术加速落地",
-      "category": "资讯",
+      "category": "展会活动",
       "publishDate": "2026-06-08",
       "effectiveDate": "",
       "province": "上海",
@@ -4423,7 +4423,7 @@
     },
     {
       "title": "天与：\"一床一码\"智慧监管方案：毫米波雷达实现补贴全量自动核验",
-      "category": "资讯",
+      "category": "产品资讯",
       "publishDate": "2026-04-25",
       "effectiveDate": "",
       "province": "全国",
@@ -4437,7 +4437,7 @@
     },
     {
       "title": "天与：推出\"小与\"AI陪伴机器人，从健康监测迈向情感陪伴",
-      "category": "资讯",
+      "category": "产品资讯",
       "publishDate": "2026-06-01",
       "effectiveDate": "",
       "province": "全国",
@@ -4451,7 +4451,7 @@
     },
     {
       "title": "福寿康：长期照护师护理员AI监管系统落地湖州长兴，从抽检监管迈向服务全流程数字化核验",
-      "category": "资讯",
+      "category": "企业动态",
       "publishDate": "2026-06-15",
       "effectiveDate": "",
       "province": "浙江",
@@ -4465,7 +4465,7 @@
     },
     {
       "title": "福寿康：数颐联康发布\"南山大模型\"，养老机器人完成家庭入户交付",
-      "category": "政策文件",
+      "category": "企业动态",
       "publishDate": "2026-06-05",
       "effectiveDate": "",
       "province": "全国",
@@ -4479,7 +4479,7 @@
     },
     {
       "title": "福寿康\"巡护360\"上海首发 构建AI+居家养老照护新范式",
-      "category": "资讯",
+      "category": "企业动态",
       "publishDate": "2026-03-27",
       "effectiveDate": "",
       "province": "上海",
@@ -4493,7 +4493,7 @@
     },
     {
       "title": "银发浪潮下的智慧引擎：2026年智慧养老产业深度透视",
-      "category": "资讯",
+      "category": "行业报告",
       "publishDate": "2026-05-08",
       "effectiveDate": "",
       "province": "",
@@ -4507,7 +4507,7 @@
     },
     {
       "title": "中国智慧养老行业发展现状分析与投资前景预测报告（2026-2033年）",
-      "category": "资讯",
+      "category": "行业报告",
       "publishDate": "2026-05-29",
       "effectiveDate": "",
       "province": "",
@@ -4521,7 +4521,7 @@
     },
     {
       "title": "破解养老痛点：2026智慧健康养老布局的核心方向与实施路径",
-      "category": "资讯",
+      "category": "行业报告",
       "publishDate": "2026-01-23",
       "effectiveDate": "",
       "province": "",
@@ -4535,7 +4535,7 @@
     },
     {
       "title": "2026年AI+智慧养老全场景应用解决方案白皮书",
-      "category": "资讯",
+      "category": "行业报告",
       "publishDate": "2026-04-02",
       "effectiveDate": "",
       "province": "",
@@ -4549,7 +4549,7 @@
     },
     {
       "title": "优得护养老陪伴机器人CES 2026首秀：AI赋能全场景",
-      "category": "资讯",
+      "category": "产品资讯",
       "publishDate": "2026-01-08",
       "effectiveDate": "",
       "province": "",
@@ -4563,7 +4563,7 @@
     },
     {
       "title": "2026杭州国际康养机器人与智能养老产品展览会",
-      "category": "资讯",
+      "category": "展会活动",
       "publishDate": "2026-02-24",
       "effectiveDate": "",
       "province": "",
@@ -4577,7 +4577,7 @@
     },
     {
       "title": "智慧康养机器人从试点走向普及（央视报道）",
-      "category": "资讯",
+      "category": "媒体报道",
       "publishDate": "2026-03-20",
       "effectiveDate": "",
       "province": "",
