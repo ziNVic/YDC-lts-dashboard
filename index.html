@@ -42,12 +42,13 @@ header .subtitle { font-size:13px; opacity:0.92; margin-top:4px; font-weight:400
 .module li:last-child { border-bottom:none; }
 .module .tag { font-size:11px; padding:4px 12px; border-radius:50px; white-space:nowrap; flex-shrink:0; font-weight:600; letter-spacing:0.3px; line-height:1.4; }
 .disclaimer { font-size:12px; color:#5a6c7d; text-align:center; padding:10px 16px; margin:18px 0; background:#f0f7ff; border-radius:6px; border:1px solid #d0e4f0; letter-spacing:0.3px; font-weight:500; }
-.tag-blue { background:#e0f0ff; color:#0a5dc7; border:1px solid #b8d8ff; }
-.tag-teal { background:#e0faf4; color:#087f5b; border:1px solid #a8e6d4; }
+.tag-policy { background:#e0ecf5; color:#0B5E8A; border:1px solid #b8d4e8; }
+.tag-city { background:#e0f2fa; color:#0A7BB5; border:1px solid #b8d8e0; }
+.tag-selection { background:#e0f0f0; color:#0A7D8F; border:1px solid #b8d8d8; }
+.tag-regulatory { background:#e0f0ec; color:#097A6A; border:1px solid #b8d4c8; }
+.tag-digital { background:#e0e8f8; color:#1E40AF; border:1px solid #b8c8e0; }
+.tag-caregiver { background:#e0e4f0; color:#1E3A8A; border:1px solid #b8c0d8; }
 .tag-amber { background:#fff4d9; color:#a15c00; border:1px solid #ffe0a0; }
-.tag-red { background:#ffe8e8; color:#c92a2a; border:1px solid #ffc9c9; }
-.tag-purple { background:#f0e8ff; color:#6921b0; border:1px solid #dcc2ff; }
-.tag-gray { background:#f1f3f5; color:#495057; border:1px solid #dee2e6; }
 .module .item-title { color:#1a1a2e; text-decoration:none; font-weight:500; line-height:1.4; transition:color 0.15s; }
 .module .item-title:hover { color:#06B0EF; }
 .module .disabled-link { color:#8898aa; cursor:default; }
@@ -268,10 +269,7 @@ function renderDashboard() {
     var natHTML = '<div class="module module-policy"><h3>全国政策公告<span class="count">共' + NATIONAL_DATA.length + '条</span></h3><ul>';
     for (var i = 0; i < Math.min(5, sortedNational.length); i++) {
         var item = sortedNational[i];
-        var tagClass = "tag-gray";
-        if (item.category === "正式政策" || item.category === "配套标准") tagClass = "tag-blue";
-        else if (item.category === "征求意见稿") tagClass = "tag-gray";
-        else if (item.category === "政策解读") tagClass = "tag-teal";
+        var tagClass = "tag-policy";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
         natHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + (item.sourceName || item.source || "") + '</div></div></li>';
     }
@@ -281,8 +279,7 @@ function renderDashboard() {
     var cityHTML = '<div class="module module-city"><h3>城市重要公告<span class="count">共' + CITY_ANNOUNCE_DATA.length + '条</span></h3><ul>';
     for (var i = 0; i < Math.min(5, sortedCity.length); i++) {
         var item = sortedCity[i];
-        var tagClass = "tag-teal";
-        if (item.category === "实施方案") tagClass = "tag-blue";
+        var tagClass = "tag-city";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
         cityHTML += '<li><span class="tag ' + tagClass + '">' + item.city + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + item.province + '</div></div></li>';
     }
@@ -292,10 +289,7 @@ function renderDashboard() {
     var selHTML = '<div class="module module-selection"><h3>遴选结果公告<span class="count">共' + SELECTION_DATA.length + '条</span></h3><ul>';
     for (var i = 0; i < Math.min(5, sortedSelection.length); i++) {
         var item = sortedSelection[i];
-        var tagClass = "tag-teal";
-        if (item.category === "定点机构") tagClass = "tag-blue";
-        else if (item.category === "评估机构") tagClass = "tag-teal";
-        else if (item.category === "结果公示") tagClass = "tag-gray";
+        var tagClass = "tag-selection";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
         selHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.city + " — " + item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + (item.sourceName || item.source || item.province || "") + '</div></div></li>';
     }
@@ -306,10 +300,7 @@ function renderDashboard() {
     var regHTML = '<div class="module module-regulatory"><h3>基金监管要闻<span class="count">共' + REGULATORY_DATA.length + '条</span></h3><ul>';
     for (var i = 0; i < Math.min(5, sortedRegulatory.length); i++) {
         var item = sortedRegulatory[i];
-        var tagClass = "tag-teal";
-        if (item.category === "案件通报" || item.category === "典型案例") tagClass = "tag-red";
-        else if (item.category === "监管政策") tagClass = "tag-red";
-        else if (item.category === "监管数据") tagClass = "tag-teal";
+        var tagClass = "tag-regulatory";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
         regHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + item.source + '</div></div></li>';
     }
@@ -319,10 +310,7 @@ function renderDashboard() {
     var digHTML = '<div class="module module-digital"><h3>数智化产品资讯<span class="count">共' + DIGITAL_DATA.length + '条</span></h3><ul>';
     for (var i = 0; i < Math.min(5, sortedDigital.length); i++) {
         var item = sortedDigital[i];
-        var tagClass = "tag-purple";
-        if (item.category === "政策方向") tagClass = "tag-blue";
-        else if (item.category === "地方实践") tagClass = "tag-teal";
-        else if (item.category === "平台建设" || item.category === "技术应用") tagClass = "tag-purple";
+        var tagClass = "tag-digital";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
         digHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + item.source + '</div></div></li>';
     }
@@ -332,8 +320,9 @@ function renderDashboard() {
     var careHTML = '<div class="module module-caregiver"><h3>长期照护师资讯<span class="count">共' + CAREGIVER_DATA.length + '条</span></h3><ul>';
     for (var i = 0; i < Math.min(5, sortedCaregiver.length); i++) {
         var item = sortedCaregiver[i];
+        var tagClass = "tag-caregiver";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
-        careHTML += '<li><span class="tag tag-teal">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + item.source + '</div></div></li>';
+        careHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + item.source + '</div></div></li>';
     }
     careHTML += '</ul><div class="view-all" data-modal="caregiver">查看全部</div></div>';
     
@@ -447,12 +436,12 @@ function showModal(type) {
         var item = list[i];
         var tagClass = "tag-normal";
         var tagText = "";
-        if (type === "national") { tagText = item.category; if (item.category === "正式政策" || item.category === "配套标准") tagClass = "tag-blue"; else if (item.category === "征求意见稿") tagClass = "tag-gray"; else if (item.category === "政策解读") tagClass = "tag-teal"; }
-        else if (type === "selection") { tagText = item.category; if (item.category === "定点机构") tagClass = "tag-blue"; else if (item.category === "评估机构") tagClass = "tag-teal"; else tagClass = "tag-gray"; }
-        else if (type === "caregiver") { tagText = item.category || "人才"; tagClass = "tag-teal"; }
-        else if (type === "city") { tagText = item.city; tagClass = "tag-teal"; }
-        else if (type === "regulatory") { tagText = item.category; if (item.category === "案件通报" || item.category === "典型案例") tagClass = "tag-red"; else if (item.category === "监管政策") tagClass = "tag-red"; else if (item.category === "监管数据") tagClass = "tag-teal"; }
-        else if (type === "digital") { tagText = item.category; if (item.category === "政策方向") tagClass = "tag-blue"; else if (item.category === "地方实践") tagClass = "tag-teal"; else if (item.category === "平台建设" || item.category === "技术应用") tagClass = "tag-purple"; }
+        if (type === "national") { tagText = item.category; tagClass = "tag-policy"; }
+        else if (type === "selection") { tagText = item.category; tagClass = "tag-selection"; }
+        else if (type === "caregiver") { tagText = item.category || "人才"; tagClass = "tag-caregiver"; }
+        else if (type === "city") { tagText = item.city; tagClass = "tag-city"; }
+        else if (type === "regulatory") { tagText = item.category; tagClass = "tag-regulatory"; }
+        else if (type === "digital") { tagText = item.category; tagClass = "tag-digital"; }
         var verifyBadge = item.verificationStatus === "待核验" ? ' <span style="color:#999;font-size:12px;">[来源待核验]</span>' : '';
         html += '<li><span class="tag ' + tagClass + '">' + tagText + '</span>';
         html += renderLink(item.url, item.title + verifyBadge, 'item-title');
