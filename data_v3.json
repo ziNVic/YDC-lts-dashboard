@@ -125,10 +125,10 @@
       "province": "",
       "city": "",
       "sourceName": "吉林省人民政府",
-      "sourceType": "官方",
+      "sourceType": "待核验",
       "url": "https://xxgk.jl.gov.cn/szf/gkml/202605/t20260509_9591364.html",
       "summary": "吉林省完善长期护理保险制度实施方案正式印发。",
-      "verificationStatus": "已核验"
+      "verificationStatus": "待核验"
     },
     {
       "title": "《甘肃省建立长期护理保险制度的实施方案（征求意见稿）》起草说明",
@@ -637,11 +637,11 @@
       "effectiveDate": "",
       "province": "浙江",
       "city": "宁波",
-      "sourceName": "中国证券报·中证网",
-      "sourceType": "官方",
+      "sourceName": "武汉金融局/中国证券报·中证网",
+      "sourceType": "媒体",
       "url": "https://jrj.wuhan.gov.cn/ztzl_57/xyrd/bxy/202512/t20251224_2701603.shtml",
       "summary": "2023年已实现职工+居民全覆盖，新增护理机构162家。",
-      "verificationStatus": "已核验"
+      "verificationStatus": "待核验"
     },
     {
       "title": "广州市长护险覆盖人数达1312.9万人",
@@ -743,10 +743,11 @@
       "status": "报名中",
       "summary": "报名时间2026年5月13日至22日，采取现场提交材料方式。全程接受社会监督。",
       "source": "政府部门",
-      "sourceType": "官方",
-      "verificationStatus": "已核验",
+      "sourceType": "待核验",
+      "verificationStatus": "待核验",
       "publishDate": "2026-05-12",
-      "category": "遴选公告"
+      "category": "遴选公告",
+      "sourceName": "第六师五家渠市政府"
     },
     {
       "date": "2026-04-14",
@@ -773,10 +774,11 @@
       "status": "遴选中",
       "summary": "择优遴选5家居家护理服务机构，机构护理和社区护理不作数量限制。明确不予受理的7种情形。",
       "source": "腾讯",
-      "verificationStatus": "已核验",
-      "sourceType": "媒体",
+      "verificationStatus": "待核验",
+      "sourceType": "待核验",
       "publishDate": "2026-01-14",
-      "category": "遴选公告"
+      "category": "遴选公告",
+      "sourceName": "万宁市政府/微信公众号"
     },
     {
       "date": "2026-01-05",
@@ -833,10 +835,10 @@
       "province": "湖南",
       "city": "长沙",
       "sourceName": "湖南省人力资源和社会保障厅",
-      "sourceType": "官方",
+      "sourceType": "待核验",
       "url": "http://rst.hunan.gov.cn/rst/xxgk/tzgg/202606/t20260615_34002097.html",
       "summary": "7月12日统一认定，5级考试，申报截止7月2日。",
-      "verificationStatus": "已核验"
+      "verificationStatus": "待核验"
     },
     {
       "title": "贵州省2026年6月长期照护师职业技能等级认定考试",
@@ -1536,7 +1538,8 @@
               "province": "山东",
               "title": "青岛市发布《关于进一步完善长期护理保险制度的实施意见》",
               "url": "",
-              "summary": "全部人群纳入参保范围，统一建账、统筹使用。"
+              "summary": "全部人群纳入参保范围，统一建账、统筹使用。",
+              "status": "待核验"
             }
           ],
           "yidekang": false,
@@ -2752,7 +2755,8 @@
               "province": "广东",
               "title": "深圳市就《长期护理保险办法》公开征求意见",
               "url": "",
-              "summary": "八章41条，涵盖参保缴费、失能评估、待遇保障等内容。"
+              "summary": "八章41条，涵盖参保缴费、失能评估、待遇保障等内容。",
+              "status": "待核验"
             }
           ],
           "yidekang": false,
@@ -2870,7 +2874,8 @@
               "province": "广西",
               "title": "柳州市城镇职工长期护理保险正式实施",
               "url": "",
-              "summary": "服务项目目录共42项，保障城镇职工重度失能人员。"
+              "summary": "服务项目目录共42项，保障城镇职工重度失能人员。",
+              "status": "待核验"
             }
           ],
           "yidekang": true,
@@ -3042,7 +3047,8 @@
               "province": "重庆",
               "title": "重庆市巴南区推行'政策找人'服务",
               "url": "",
-              "summary": "通过医保结算数据智能筛查识别潜在失能人员。"
+              "summary": "通过医保结算数据智能筛查识别潜在失能人员。",
+              "status": "待核验"
             }
           ],
           "yidekang": true,
@@ -3127,7 +3133,8 @@
               "province": "四川",
               "title": "成都市继续推进长期护理保险试点深化",
               "url": "",
-              "summary": "城乡居民全覆盖，2024年参保人数达1820万。"
+              "summary": "城乡居民全覆盖，2024年参保人数达1820万。",
+              "status": "待核验"
             }
           ],
           "yidekang": true,
@@ -3762,11 +3769,11 @@
       "effectiveDate": "",
       "province": "全国",
       "city": "全国",
-      "sourceName": "国家医保局",
-      "sourceType": "媒体",
+      "sourceName": "微信公众号/医保时讯",
+      "sourceType": "第三方转载",
       "url": "https://mp.weixin.qq.com/s/VpJ000Unur_r0RvZZ3hbRQ",
       "summary": "2026年飞行检查覆盖基本医保、生育保险、大病保险、长护险等各险种。",
-      "verificationStatus": "已核验"
+      "verificationStatus": "待核验"
     },
     {
       "title": "杨浦申报创新体系，让长护险监管可视、可控、可靠",
@@ -4064,10 +4071,10 @@
       "province": "",
       "city": "",
       "sourceName": "什么值得买/七彩喜",
-      "sourceType": "媒体",
+      "sourceType": "待核验",
       "url": "https://post.smzdm.com/p/a9kwnn40",
       "summary": "外骨骼机器人、智能护理床、大小便护理机器人等大力推广。5G+物联网构建家庭-社区-医院联动远程医疗体系。",
-      "verificationStatus": "已核验"
+      "verificationStatus": "待核验"
     },
     {
       "title": "2026年AI+智慧养老全场景应用解决方案白皮书",
