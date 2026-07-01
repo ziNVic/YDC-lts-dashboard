@@ -1,0 +1,2862 @@
+{
+  "provinces": [
+    {
+      "id": "bj",
+      "name": "北京",
+      "region": "华北",
+      "status": "试点深化",
+      "progress": 95,
+      "cities": [
+        {
+          "name": "东城区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "西城区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "朝阳区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "丰台区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "石景山区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "海淀区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "门头沟区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "房山区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "通州区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "顺义区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "昌平区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "大兴区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "怀柔区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "平谷区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "密云区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "延庆区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        }
+      ]
+    },
+    {
+      "id": "tj",
+      "name": "天津",
+      "region": "华北",
+      "status": "试点深化",
+      "progress": 90,
+      "cities": [
+        {
+          "name": "和平区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "河东区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "河西区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "南开区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "河北区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "红桥区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "东丽区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "西青区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "津南区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "北辰区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "武清区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "宝坻区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "滨海新区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "宁河区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "静海区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "蓟州区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        }
+      ]
+    },
+    {
+      "id": "heb",
+      "name": "河北",
+      "region": "华北",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "石家庄",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "唐山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "秦皇岛",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "邯郸",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "邢台",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "保定",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "张家口",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "承德",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "沧州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "廊坊",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "衡水",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "sx",
+      "name": "山西",
+      "region": "华北",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "太原",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "大同",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "阳泉",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "长治",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "晋城",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "朔州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "晋中",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "运城",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "忻州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "临汾",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "吕梁",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "nmg",
+      "name": "内蒙古",
+      "region": "华北",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "呼和浩特",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "包头",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "乌海",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "赤峰",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "通辽",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "鄂尔多斯",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "呼伦贝尔",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "巴彦淖尔",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "乌兰察布",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "sh",
+      "name": "上海",
+      "region": "华东",
+      "status": "试点深化",
+      "progress": 95,
+      "cities": [
+        {
+          "name": "黄浦区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "徐汇区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "长宁区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "静安区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "普陀区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "虹口区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "杨浦区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "闵行区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "宝山区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "嘉定区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "浦东新区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "金山区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "松江区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "青浦区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "奉贤区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "崇明区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-01-01",
+          "latestUpdate": "正常运行"
+        }
+      ]
+    },
+    {
+      "id": "js",
+      "name": "江苏",
+      "region": "华东",
+      "status": "部分启动",
+      "progress": 60,
+      "cities": [
+        {
+          "name": "南京",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "苏州",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2016-06-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "无锡",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "常州",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "徐州",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "南通",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "连云港",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2024-01-01",
+          "latestUpdate": "新启动"
+        },
+        {
+          "name": "淮安",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "盐城",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "扬州",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "镇江",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "泰州",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "宿迁",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "zj",
+      "name": "浙江",
+      "region": "华东",
+      "status": "已铺开",
+      "progress": 100,
+      "cities": [
+        {
+          "name": "杭州",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2025-01-01",
+          "latestUpdate": "正式执行"
+        },
+        {
+          "name": "宁波",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2016-06-01",
+          "latestUpdate": "试点深化"
+        },
+        {
+          "name": "温州",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "嘉兴",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "湖州",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2024-10-01",
+          "latestUpdate": "新启动"
+        },
+        {
+          "name": "绍兴",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2024-10-01",
+          "latestUpdate": "新启动"
+        },
+        {
+          "name": "金华",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2024-12-01",
+          "latestUpdate": "新启动"
+        },
+        {
+          "name": "衢州",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2024-10-01",
+          "latestUpdate": "新启动"
+        },
+        {
+          "name": "舟山",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2024-10-01",
+          "latestUpdate": "新启动"
+        },
+        {
+          "name": "台州",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "丽水",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2024-10-01",
+          "latestUpdate": "新启动"
+        },
+        {
+          "name": "义乌(县级)",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "桐庐(县级)",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "淳安(县级)",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "吴兴(县级)",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        }
+      ]
+    },
+    {
+      "id": "ah",
+      "name": "安徽",
+      "region": "华东",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "合肥",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "芜湖",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "蚌埠",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "淮南",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "马鞍山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "淮北",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "铜陵",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "安庆",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "黄山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "滁州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "阜阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "宿州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "六安",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "亳州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "池州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "宣城",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "fj",
+      "name": "福建",
+      "region": "华东",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "福州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "厦门",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "莆田",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "三明",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "泉州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "漳州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "南平",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "龙岩",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "宁德",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "jx",
+      "name": "江西",
+      "region": "华东",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "南昌",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "景德镇",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "萍乡",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "九江",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "新余",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "鹰潭",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "赣州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "吉安",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "宜春",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "抚州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "上饶",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "sd",
+      "name": "山东",
+      "region": "华东",
+      "status": "已铺开",
+      "progress": 95,
+      "cities": [
+        {
+          "name": "济南",
+          "status": "已启动",
+          "coverage": "居民全覆盖",
+          "startDate": "2020-09-01",
+          "latestUpdate": "居民全覆盖"
+        },
+        {
+          "name": "青岛",
+          "status": "已启动",
+          "coverage": "居民全覆盖",
+          "startDate": "2016-06-01",
+          "latestUpdate": "居民全覆盖"
+        },
+        {
+          "name": "淄博",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "枣庄",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "东营",
+          "status": "已启动",
+          "coverage": "居民全覆盖",
+          "startDate": "2020-09-01",
+          "latestUpdate": "居民全覆盖"
+        },
+        {
+          "name": "烟台",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "潍坊",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "济宁",
+          "status": "已启动",
+          "coverage": "居民全覆盖",
+          "startDate": "2020-09-01",
+          "latestUpdate": "居民全覆盖"
+        },
+        {
+          "name": "泰安",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "威海",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "日照",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "临沂",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "德州",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "聊城",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "滨州",
+          "status": "已启动",
+          "coverage": "居民全覆盖",
+          "startDate": "2020-09-01",
+          "latestUpdate": "居民全覆盖"
+        },
+        {
+          "name": "菏泽",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        }
+      ]
+    },
+    {
+      "id": "gd",
+      "name": "广东",
+      "region": "华南",
+      "status": "部分启动",
+      "progress": 45,
+      "cities": [
+        {
+          "name": "广州",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2017-08-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "深圳",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "珠海",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "汕头",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "韶关",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "佛山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "江门",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "湛江",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "茂名",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "肇庆",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "惠州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "梅州",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "汕尾",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "河源",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "阳江",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "清远",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "东莞",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "中山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "潮州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "揭阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "云浮",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "gx",
+      "name": "广西",
+      "region": "华南",
+      "status": "部分启动",
+      "progress": 30,
+      "cities": [
+        {
+          "name": "南宁",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "柳州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "桂林",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "梧州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "北海",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "防城港",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "钦州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "贵港",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "玉林",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "百色",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "贺州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "河池",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "来宾",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "崇左",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "han",
+      "name": "海南",
+      "region": "华南",
+      "status": "规划中",
+      "progress": 15,
+      "cities": [
+        {
+          "name": "海口",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "三亚",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "三沙",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "儋州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "hnn",
+      "name": "河南",
+      "region": "华中",
+      "status": "部分启动",
+      "progress": 35,
+      "cities": [
+        {
+          "name": "郑州",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "开封",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "洛阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "平顶山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "安阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "鹤壁",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "新乡",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "焦作",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "濮阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "许昌",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "漯河",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "三门峡",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "南阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "商丘",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "信阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "周口",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "驻马店",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "济源",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "hbb",
+      "name": "湖北",
+      "region": "华中",
+      "status": "部分启动",
+      "progress": 40,
+      "cities": [
+        {
+          "name": "武汉",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "黄石",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "十堰",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "宜昌",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "襄阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "鄂州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "荆门",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2016-06-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "孝感",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "荆州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "黄冈",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "咸宁",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "随州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "恩施",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "hun",
+      "name": "湖南",
+      "region": "华中",
+      "status": "部分启动",
+      "progress": 35,
+      "cities": [
+        {
+          "name": "长沙",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "株洲",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "湘潭",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "衡阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "邵阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "岳阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "常德",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "张家界",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "益阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "郴州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "永州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "怀化",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "娄底",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "湘西",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "cq",
+      "name": "重庆",
+      "region": "西南",
+      "status": "试点深化",
+      "progress": 90,
+      "cities": [
+        {
+          "name": "渝中区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "大渡口区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "江北区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "沙坪坝区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "九龙坡区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "南岸区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "北碚区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "渝北区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "巴南区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "万州区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "涪陵区",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "其他区县",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        }
+      ]
+    },
+    {
+      "id": "sc",
+      "name": "四川",
+      "region": "西南",
+      "status": "部分启动",
+      "progress": 30,
+      "cities": [
+        {
+          "name": "成都",
+          "status": "已启动",
+          "coverage": "职工+居民",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "自贡",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "攀枝花",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "泸州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "德阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "绵阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "广元",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "遂宁",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "内江",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "乐山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "南充",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "眉山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "宜宾",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "广安",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "达州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "雅安",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "巴中",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "资阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "gz",
+      "name": "贵州",
+      "region": "西南",
+      "status": "部分启动",
+      "progress": 25,
+      "cities": [
+        {
+          "name": "贵阳",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "遵义",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "六盘水",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "安顺",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "毕节",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "铜仁",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "黔西南",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "黔东南",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "黔南",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "yn",
+      "name": "云南",
+      "region": "西南",
+      "status": "部分启动",
+      "progress": 25,
+      "cities": [
+        {
+          "name": "昆明",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "曲靖",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "玉溪",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "保山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "昭通",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "丽江",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "普洱",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "临沧",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "楚雄",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "红河",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "文山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "西双版纳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "大理",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "德宏",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "怒江",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "迪庆",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "snx",
+      "name": "陕西",
+      "region": "西北",
+      "status": "部分启动",
+      "progress": 30,
+      "cities": [
+        {
+          "name": "西安",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "铜川",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "宝鸡",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "咸阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "渭南",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "延安",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "汉中",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "榆林",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "安康",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "商洛",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "gs",
+      "name": "甘肃",
+      "region": "西北",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "兰州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "嘉峪关",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "金昌",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "白银",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "天水",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "武威",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "张掖",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "平凉",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "酒泉",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "庆阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "定西",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "陇南",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "临夏",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "甘南",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "qh",
+      "name": "青海",
+      "region": "西北",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "西宁",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "海东",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "海北",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "黄南",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "海南",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "果洛",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "玉树",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "海西",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "nx",
+      "name": "宁夏",
+      "region": "西北",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "银川",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "石嘴山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "吴忠",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "固原",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "中卫",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "ln",
+      "name": "辽宁",
+      "region": "东北",
+      "status": "尚未启动",
+      "progress": 0,
+      "cities": [
+        {
+          "name": "沈阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "大连",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "鞍山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "抚顺",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "本溪",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "丹东",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "锦州",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "营口",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "阜新",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "辽阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "盘锦",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "铁岭",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "朝阳",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "葫芦岛",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "jl",
+      "name": "吉林",
+      "region": "东北",
+      "status": "部分启动",
+      "progress": 35,
+      "cities": [
+        {
+          "name": "长春",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2016-06-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "吉林",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "四平",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "辽源",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "通化",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "白山",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "松原",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "白城",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "延边",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    },
+    {
+      "id": "hlj",
+      "name": "黑龙江",
+      "region": "东北",
+      "status": "部分启动",
+      "progress": 30,
+      "cities": [
+        {
+          "name": "哈尔滨",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "齐齐哈尔",
+          "status": "已启动",
+          "coverage": "职工",
+          "startDate": "2020-09-01",
+          "latestUpdate": "正常运行"
+        },
+        {
+          "name": "鸡西",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "鹤岗",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "双鸭山",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "大庆",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "伊春",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "佳木斯",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "七台河",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "牡丹江",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "黑河",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "绥化",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        },
+        {
+          "name": "大兴安岭",
+          "status": "未启动",
+          "coverage": "--",
+          "startDate": "--",
+          "latestUpdate": "--"
+        }
+      ]
+    }
+  ]
+}

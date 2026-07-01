@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全国长护险监测平台</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="top-header">
+        <div class="logo-area">
+            <div class="logo-icon">🏥</div>
+            <div class="logo-text">
+                <h1>全国长护险监测平台</h1>
+                <span>Long-Term Care Insurance Monitoring Platform</span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <a href="#" class="nav-item active" data-view="overview">
+                <span class="nav-icon">📊</span>
+                <span>总览仪表盘</span>
+            </a>
+            <a href="#" class="nav-item" data-view="cities">
+                <span class="nav-icon">🏙️</span>
+                <span>城市监测</span>
+            </a>
+            <a href="#" class="nav-item" data-view="policies">
+                <span class="nav-icon">📋</span>
+                <span>政策库</span>
+            </a>
+            <a href="#" class="nav-item" data-view="supervision">
+                <span class="nav-icon">🔍</span>
+                <span>监管动态</span>
+            </a>
+            <a href="#" class="nav-item" data-view="news">
+                <span class="nav-icon">📰</span>
+                <span>行业要闻</span>
+            </a>
+        </nav>
+        <div class="header-right">
+            <div class="search-box">
+                <input type="text" placeholder="搜索城市、政策、新闻..." id="globalSearch">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="update-time">
+                <span class="update-label">数据更新</span>
+                <span class="update-date" id="updateTime">--</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主体布局 -->
+    <div class="main-layout">
+        <!-- 左侧边栏 -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>试点批次筛选</h3>
+                <div class="filter-group">
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-batch="all">
+                        <span>全部城市</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-batch="1">
+                        <span>第一批试点（2016）</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-batch="2">
+                        <span>第二批试点（2020）</span>
+                    </label>
+                </div>
+            </div>
+            <div class="sidebar-section">
+                <h3>区域筛选</h3>
+                <div class="filter-group" id="regionFilter">
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-region="all">
+                        <span>全部区域</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-region="华北">
+                        <span>华北</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-region="华东">
+                        <span>华东</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-region="华南">
+                        <span>华南</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-region="华中">
+                        <span>华中</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-region="西南">
+                        <span>西南</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-region="西北">
+                        <span>西北</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked data-region="东北">
+                        <span>东北</span>
+                    </label>
+                </div>
+            </div>
+            <div class="sidebar-section">
+                <h3>进度概览</h3>
+                <div class="progress-overview">
+                    <div class="progress-item">
+                        <span class="progress-label">政策收集</span>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 78%"></div>
+                        </div>
+                        <span class="progress-value">78%</span>
+                    </div>
+                    <div class="progress-item">
+                        <span class="progress-label">政策梳理</span>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 65%"></div>
+                        </div>
+                        <span class="progress-value">65%</span>
+                    </div>
+                    <div class="progress-item">
+                        <span class="progress-label">公示完成</span>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 52%"></div>
+                        </div>
+                        <span class="progress-value">52%</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 主内容区 -->
+        <main class="content-area">
+            <!-- 总览仪表盘视图 -->
+            <div class="view active" id="view-overview">
+                <div class="view-header">
+                    <h2>📊 总览仪表盘</h2>
+                    <p class="view-desc">全国长期护理保险试点城市政策监测总览</p>
+                </div>
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="stat-icon bg-blue">🏙️</div>
+                        <div class="stat-info">
+                            <div class="stat-number" id="statCityCount">--</div>
+                            <div class="stat-label">监测城市</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon bg-green">📋</div>
+                        <div class="stat-info">
+                            <div class="stat-number" id="statPolicyCount">--</div>
+                            <div class="stat-label">政策文件</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon bg-orange">🔔</div>
+                        <div class="stat-info">
+                            <div class="stat-number" id="statNoticeCount">--</div>
+                            <div class="stat-label">公示信息</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon bg-red">📰</div>
+                        <div class="stat-info">
+                            <div class="stat-number" id="statNewsCount">--</div>
+                            <div class="stat-label">本月要闻</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-grid">
+                    <div class="panel panel-large">
+                        <div class="panel-header">
+                            <h3>🗺️ 试点城市分布</h3>
+                            <div class="panel-actions">
+                                <button class="btn-sm" data-action="expand">展开</button>
+                            </div>
+                        </div>
+                        <div class="panel-body" id="cityMapPanel">
+                            <div class="city-map-placeholder">
+                                <div class="region-grid" id="regionGrid"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">
+                            <h3>🔥 最新动态</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="timeline" id="timelineLatest"></div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">
+                            <h3>⚠️ 监管提醒</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="alert-list" id="alertList"></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-large">
+                        <div class="panel-header">
+                            <h3>📈 政策收集进度排行</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="rank-table" id="rankTable"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 城市监测视图 -->
+            <div class="view" id="view-cities">
+                <div class="view-header">
+                    <h2>🏙️ 城市监测</h2>
+                    <p class="view-desc">各试点城市长护险政策收集、梳理与公示情况</p>
+                </div>
+                <div class="city-filter-bar">
+                    <div class="filter-tags" id="cityFilterTags"></div>
+                    <div class="sort-options">
+                        <select id="citySortSelect">
+                            <option value="default">默认排序</option>
+                            <option value="policyDesc">政策数量 ↓</option>
+                            <option value="progressDesc">完成进度 ↓</option>
+                            <option value="updateDesc">更新时间 ↓</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="city-grid" id="cityGrid"></div>
+            </div>
+
+            <!-- 政策库视图 -->
+            <div class="view" id="view-policies">
+                <div class="view-header">
+                    <h2>📋 政策库</h2>
+                    <p class="view-desc">全国长护险相关政策文件收集与归档</p>
+                </div>
+                <div class="policy-toolbar">
+                    <div class="policy-categories" id="policyCategories">
+                        <button class="cat-btn active" data-cat="all">全部</button>
+                        <button class="cat-btn" data-cat="implementation">实施方案</button>
+                        <button class="cat-btn" data-cat="assessment">评估标准</button>
+                        <button class="cat-btn" data-cat="provider">定点机构</button>
+                        <button class="cat-btn" data-cat="fund">基金管理</button>
+                        <button class="cat-btn" data-cat="service">服务规范</button>
+                    </div>
+                    <div class="policy-search">
+                        <input type="text" placeholder="搜索政策文件..." id="policySearch">
+                    </div>
+                </div>
+                <div class="policy-list" id="policyList"></div>
+            </div>
+
+            <!-- 监管动态视图 -->
+            <div class="view" id="view-supervision">
+                <div class="view-header">
+                    <h2>🔍 监管动态</h2>
+                    <p class="view-desc">长护险基金监管、违规通报与检查信息</p>
+                </div>
+                <div class="supervision-tabs">
+                    <button class="tab-btn active" data-tab="inspection">监督检查</button>
+                    <button class="tab-btn" data-tab="violation">违规通报</button>
+                    <button class="tab-btn" data-tab="fund">基金监管</button>
+                </div>
+                <div class="supervision-content" id="supervisionContent"></div>
+            </div>
+
+            <!-- 行业要闻视图 -->
+            <div class="view" id="view-news">
+                <div class="view-header">
+                    <h2>📰 行业要闻</h2>
+                    <p class="view-desc">长护险行业最新动态、政策解读与新闻资讯</p>
+                </div>
+                <div class="news-filter">
+                    <div class="news-tags" id="newsTags">
+                        <button class="tag-btn active" data-tag="all">全部</button>
+                        <button class="tag-btn" data-tag="policy">政策发布</button>
+                        <button class="tag-btn" data-tag="pilot">试点进展</button>
+                        <button class="tag-btn" data-tag="industry">行业动态</button>
+                        <button class="tag-btn" data-tag="data">数据发布</button>
+                    </div>
+                </div>
+                <div class="news-list" id="newsList"></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 城市详情弹窗 -->
+    <div class="modal" id="cityModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 id="modalCityTitle">城市详情</h3>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body" id="modalCityBody"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "policies": [
+    { "id": "p001", "title": "中共中央办公厅 国务院办公厅关于加快建立长期护理保险制度的意见", "city": "全国", "category": "implementation", "date": "2025-07-15", "important": true, "source": "中办/国办", "url": "https://www.gov.cn" },
+    { "id": "p002", "title": "国家医疗保障局关于印发《国家长期护理保险服务项目目录（试行）》的通知", "city": "全国", "category": "service", "date": "2025-09-18", "important": true, "source": "国家医保局", "url": "https://www.nhsa.gov.cn" },
+    { "id": "p003", "title": "长期护理保险服务管理文书（2026年版）", "city": "全国", "category": "implementation", "date": "2025-12-01", "important": true, "source": "国家医保局", "url": "https://www.nhsa.gov.cn" },
+    { "id": "p004", "title": "上海市长期护理保险试点办法", "city": "上海", "category": "implementation", "date": "2023-12-15", "important": true, "source": "上海医保局", "url": "" },
+    { "id": "p005", "title": "上海市长期护理保险失能评估管理办法", "city": "上海", "category": "assessment", "date": "2024-01-20", "important": false, "source": "上海医保局", "url": "" },
+    { "id": "p006", "title": "上海市长期护理保险定点护理服务机构管理办法", "city": "上海", "category": "provider", "date": "2024-03-10", "important": false, "source": "上海医保局", "url": "" },
+    { "id": "p007", "title": "北京市长期护理保险制度试点实施方案", "city": "北京", "category": "implementation", "date": "2024-02-28", "important": true, "source": "北京医保局", "url": "" },
+    { "id": "p008", "title": "北京市长期护理保险失能评估标准（试行）", "city": "北京", "category": "assessment", "date": "2024-04-15", "important": false, "source": "北京医保局", "url": "" },
+    { "id": "p009", "title": "广州市长期护理保险试行办法", "city": "广州", "category": "implementation", "date": "2023-11-08", "important": true, "source": "广州医保局", "url": "" },
+    { "id": "p010", "title": "广州市长期护理保险基金管理办法", "city": "广州", "category": "fund", "date": "2024-01-05", "important": false, "source": "广州医保局", "url": "" },
+    { "id": "p011", "title": "苏州市长期护理保险失能等级评估管理办法", "city": "苏州", "category": "assessment", "date": "2024-02-10", "important": false, "source": "苏州医保局", "url": "" },
+    { "id": "p012", "title": "青岛市长期护理保险实施方案", "city": "青岛", "category": "implementation", "date": "2023-10-20", "important": true, "source": "青岛医保局", "url": "" },
+    { "id": "p013", "title": "重庆市长期护理保险制度试点实施意见", "city": "重庆", "category": "implementation", "date": "2024-03-01", "important": true, "source": "重庆医保局", "url": "" },
+    { "id": "p014", "title": "深圳市长期护理保险办法", "city": "深圳", "category": "implementation", "date": "2024-05-12", "important": true, "source": "深圳医保局", "url": "" },
+    { "id": "p015", "title": "杭州市长期护理保险试行办法", "city": "杭州", "category": "implementation", "date": "2024-12-01", "important": true, "source": "杭州医保局", "url": "" },
+    { "id": "p016", "title": "杭州市长期护理保险失能评估管理办法", "city": "杭州", "category": "assessment", "date": "2025-01-01", "important": false, "source": "杭州医保局", "url": "" },
+    { "id": "p017", "title": "南京市长期护理保险护理服务规范", "city": "南京", "category": "service", "date": "2024-04-20", "important": false, "source": "南京医保局", "url": "" },
+    { "id": "p018", "title": "成都市长期护理保险制度试点方案", "city": "成都", "category": "implementation", "date": "2024-06-01", "important": true, "source": "成都医保局", "url": "" },
+    { "id": "p019", "title": "武汉市长期护理保险失能评估管理办法", "city": "武汉", "category": "assessment", "date": "2024-03-25", "important": false, "source": "武汉医保局", "url": "" },
+    { "id": "p020", "title": "天津市长期护理保险护理服务机构定点管理实施细则", "city": "天津", "category": "provider", "date": "2025-08-18", "important": true, "source": "天津医保局", "url": "" },
+    { "id": "p021", "title": "西安市长期护理保险基金监管办法", "city": "西安", "category": "fund", "date": "2024-05-08", "important": false, "source": "西安医保局", "url": "" },
+    { "id": "p022", "title": "济南市长期护理保险护理服务项目清单", "city": "济南", "category": "service", "date": "2024-04-10", "important": false, "source": "济南医保局", "url": "" },
+    { "id": "p023", "title": "郑州市长期护理保险失能评估技术规范", "city": "郑州", "category": "assessment", "date": "2024-03-18", "important": false, "source": "郑州医保局", "url": "" },
+    { "id": "p024", "title": "长沙市长期护理保险定点机构管理办法", "city": "长沙", "category": "provider", "date": "2024-05-22", "important": false, "source": "长沙医保局", "url": "" },
+    { "id": "p025", "title": "宁波市长期护理保险制度试点指导意见（深化版）", "city": "宁波", "category": "implementation", "date": "2022-08-01", "important": true, "source": "宁波医保局", "url": "" },
+    { "id": "p026", "title": "海南省长期护理保险制度实施方案", "city": "海南", "category": "implementation", "date": "2025-12-01", "important": true, "source": "海南医保局", "url": "" }
+  ]
+}
