@@ -229,13 +229,17 @@ function verificationRank(item) {
     return 2;
 }
 
+function displaySource(item) {
+    return item.sourceName || item.source || item.province || "";
+}
+
 function sortByPublishDateDesc(list) {
     return list.slice().sort(function(a, b) {
-        var rankDiff = verificationRank(a) - verificationRank(b);
-        if (rankDiff !== 0) return rankDiff;
         var aDate = new Date(a.publishDate || a.date || "1900-01-01");
         var bDate = new Date(b.publishDate || b.date || "1900-01-01");
-        return bDate - aDate;
+        var dateDiff = bDate - aDate;
+        if (dateDiff !== 0) return dateDiff;
+        return verificationRank(a) - verificationRank(b);
     });
 }
 
@@ -271,7 +275,7 @@ function renderDashboard() {
         var item = sortedNational[i];
         var tagClass = "tag-policy";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
-        natHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + (item.sourceName || "") + '</div></div></li>';
+        natHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + displaySource(item) + '</div></div></li>';
     }
     natHTML += '</ul><div class="view-all" data-modal="national">查看全部</div></div>';
     
@@ -291,7 +295,7 @@ function renderDashboard() {
         var item = sortedSelection[i];
         var tagClass = "tag-selection";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
-        selHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.city + " — " + item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + (item.sourceName || item.province || "") + '</div></div></li>';
+        selHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.city + " — " + item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + displaySource(item) + '</div></div></li>';
     }
     selHTML += '</ul><div class="view-all" data-modal="selection">查看全部</div></div>';
     
@@ -302,7 +306,7 @@ function renderDashboard() {
         var item = sortedRegulatory[i];
         var tagClass = "tag-regulatory";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
-        regHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + (item.sourceName || "") + '</div></div></li>';
+        regHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + displaySource(item) + '</div></div></li>';
     }
     regHTML += '</ul><div class="view-all" data-modal="regulatory">查看全部</div></div>';
     
@@ -312,7 +316,7 @@ function renderDashboard() {
         var item = sortedDigital[i];
         var tagClass = "tag-digital";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
-        digHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + (item.sourceName || "") + '</div></div></li>';
+        digHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + displaySource(item) + '</div></div></li>';
     }
     digHTML += '</ul><div class="view-all" data-modal="digital">查看全部</div></div>';
     
@@ -322,7 +326,7 @@ function renderDashboard() {
         var item = sortedCaregiver[i];
         var tagClass = "tag-caregiver";
         var verifyBadge = item.verificationStatus === "待核验" ? '<span style="color:#999;font-size:10px;margin-left:4px;">[待核验]</span>' : '';
-        careHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + (item.sourceName || "") + '</div></div></li>';
+        careHTML += '<li><span class="tag ' + tagClass + '">' + item.category + '</span><div>' + renderLink(item.url, item.title + verifyBadge, 'item-title') + '<div class="item-date">' + item.publishDate + " · " + displaySource(item) + '</div></div></li>';
     }
     careHTML += '</ul><div class="view-all" data-modal="caregiver">查看全部</div></div>';
     
@@ -449,7 +453,7 @@ function showModal(type) {
         var verifyBadge = item.verificationStatus === "待核验" ? ' <span style="color:#999;font-size:12px;">[来源待核验]</span>' : '';
         html += '<li><span class="tag ' + tagClass + '">' + tagText + '</span>';
         html += renderLink(item.url, item.title + verifyBadge, 'item-title');
-        html += '<div class="item-meta">' + item.publishDate + " · " + (item.sourceName || "") + '</div>';
+        html += '<div class="item-meta">' + item.publishDate + " · " + displaySource(item) + '</div>';
         if (item.summary) html += '<div class="item-summary">' + item.summary + '</div>';
         html += '</li>';
     }
